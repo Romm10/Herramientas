@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    
+     <!--Para que acepte acento y ñ-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+      </head>
+  <style>
+  footer {
+  width: 102.5%;
+  background: #b63b3b;
+  color: rgb(123, 230, 36);
+  font-size: 12px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 20px;
+}</style>
+
+  <body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">El Blog</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Datos Personales</a></li>
+                <li><a href="">Gustos</a></li>
+                <li><a href="">Personalidad</a></li>
+                <li><a href="">Acerca de...</a></li>
+              </ul>
+            </div>
+          </nav>
+        
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 offset-m4">
+          <form action="index.html" method="get">
+            <div class="row card-panel z-depth-4">
+              <h5>Iniciar Sesion</h>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">
+                    accessibilitynew</i>
+                <input
+                  type="text"
+                  placeholder="Ingresar Usuario"
+                  id="usuario"
+                  name="usuario"
+                  class="validate"
+                  required
+                />
+              </div>
+
+              <div class="input-field col s12">
+                <i class="material-icons prefix">lock</i>
+                <input
+                  type="password"
+                  placeholder="Ingresar Contraseña"
+                  id="pswd"
+                  name="pswd"
+                  class="validate"
+                  required
+                />
+              </div>
+              <button class="btn blue right">
+                <i class="material-icons left">login</i>
+                Iniciar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s6">
+          <div class="card blue lighten-3">
+            <div class="card-content">
+              <p>
+                <div class="datos"> 
+                  <h4>Datos personales</h4>
+                  <h5>Edad: 22</h5>
+                  <h5>Ocupacion:Estudiante</h5>
+                  <h5>Grado: Carrera</h5>
+                  <h5>Vivo en Nohalal, Hecelchakan, Campeche</h5>
+                  <h5>Mi familia: 2 hermanitos</h5>
+                  <!--Creación de hipervinculos-->
+                  <h4>Redes sociales</h4>
+                  <h5>
+                  <a color: "#afa6bb" >Facebook:</a>  
+                  <a href="https://www.facebook.com/randyomar.mismaldonado">Randy Maldonado</a><p>
+                  <a>Mi Universidad:</a>
+                  <a href="https://www.uacam.mx">UACAM</a><p> 
+                  </h5>
+              
+              </p>
+            </div>
+          </div>
+        </div>
+
+      
+      </div>
+
+      <div class="row">
+        <div class="col s6">
+          <div class="card blue darken-1">
+            <div class="card-image">
+              <img src="images/hecelchakan.jpg" alt="" />
+            </div>
+            <div class="card-title">
+              Mi Municipio
+            </div>
+            <div class="card-content">
+              <h4>Hecelchakan</h4>
+              <p>
+                Hecelchakán (en maya yucateco: Sabana del descanso) es una ciudad del estado mexicano de Campeche, localizada al norte del estado, es cabecera del municipio de Hecelchakán.    
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col s9">
+          <div class="card">
+            <div class="card-images">
+              <img src="images/MEXICO2.jpg" alt="" />
+            </div>
+            <div class="card-title">
+              Mi Pais
+            </div>
+            <div class="card-content">
+              <h3>México</h3>
+              <p>
+                
+                  México, oficialmente los Estados Unidos Mexicanos,22​23​24​25​ es un país soberano ubicado en la parte meridional de América del Norte; su capital y ciudad más poblada es la Ciudad de México.26​ Según su propia constitución, su forma de gobierno consiste en una república representativa, democrática, laica y federal, compuesta por 32 entidades federativas (31 estados y la capital federal).
+
+                  El territorio mexicano tiene una superficie de 1 964 375 km², por lo que es el decimotercer país más extenso del mundo y el tercero más grande de América Latina. Limita al norte con los Estados Unidos de América a lo largo de una frontera de 3155 km, mientras que al sur tiene una frontera de 958 km con Guatemala y 276 km con Belice. Las costas del país limitan al oeste con el océano Pacífico y al este con el golfo de México y el mar Caribe, sumando 9330 km
+             </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <footer>
+        <strong>© 2021 Programación de Aplicaciones Web</strong>
+        <br>      
+        <a>Randy Omar Miss Maldonado</a> | <a href="">al060886@uacam.mx</a> 
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
